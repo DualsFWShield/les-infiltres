@@ -4,6 +4,8 @@
 
 Le **Jeu de l'Infiltré** est une adaptation d'un jeu de société populaire où les joueurs endossent différents rôles avec des capacités uniques. L'objectif du jeu est de compléter les missions assignées en utilisant les pouvoirs spéciaux de chaque personnage tout en interagissant avec les autres joueurs.
 
+[Demo](https://dualsfwshield.github.io/les-infiltres/)
+
 ## Fonctionnalités
 
 - **Choix de Rôle** : Les joueurs peuvent choisir parmi plusieurs rôles, chacun ayant des capacités spéciales.
