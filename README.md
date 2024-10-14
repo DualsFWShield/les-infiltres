@@ -23,23 +23,43 @@ Le **Jeu de l'Infiltré** est une adaptation d'un jeu de société populaire où
 
    ```bash
    git clone https://github.com/DualsFWShield/les-infiltre.git
+   ```
 
-##Utilisation
-Sélectionnez votre rôle dans le menu déroulant.
-Cliquez sur les boutons pour indiquer si vous êtes amoureux, mort ou capitaine.
-Utilisez le bouton "Afficher / Masquer les Informations" pour gérer la visibilité des informations du joueur.
+## Utilisation
 
-##Contribuer
+- Sélectionnez votre rôle dans le menu déroulant.
+- Cliquez sur les boutons pour indiquer si vous êtes amoureux, mort ou capitaine.
+- Utilisez le bouton "Afficher / Masquer les Informations" pour gérer la visibilité des informations du joueur.
+
+## Contribuer
+
 Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce projet, n'hésitez pas à ouvrir une issue ou soumettre une pull request.
 
-Forkez le projet.
-Créez votre branche (git checkout -b feature/YourFeature).
-Commitez vos changements (git commit -m 'Ajout d'une nouvelle fonctionnalité').
-Poussez sur votre branche (git push origin feature/YourFeature).
-Ouvrez une pull request.
+1. Forkez le projet.
+2. Créez votre branche :
 
-##Auteurs
-DualsFWShield
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
 
-##Licence
+3. Commitez vos changements :
+
+   ```bash
+   git commit -m 'Ajout d'une nouvelle fonctionnalité'
+   ```
+
+4. Poussez sur votre branche :
+
+   ```bash
+   git push origin feature/YourFeature
+   ```
+
+5. Ouvrez une pull request.
+
+## Auteurs
+
+- DualsFWShield
+
+## Licence
+
 Ce projet est sous licence MIT.
