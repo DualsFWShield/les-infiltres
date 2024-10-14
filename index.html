@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu Simplifié de l'Infiltré</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jeu de l'Infiltré</h1>
+        
+        <div id="player-info">
+            <label for="role" id="drole">Votre Rôle:</label>
+            <select id="role">
+                <option value="villageois">Villageois</option>
+                <option value="observateur">Observateur</option>
+                <option value="scientifique">Scientifique</option>
+                <option value="petite_fille">Petite Fille</option>
+                <option value="entremetteur">Entremetteur</option>
+                <option value="chasseur">Chasseur</option>
+                <option value="voleur">Voleur</option>
+                <option value="bouc_emissaire">Bouc Émissaire</option>
+                <option value="idiot">L’Idiot du Village</option>
+                <option value="joueur_de_flute">Joueur de Flûte</option>
+            </select>
+            
+            <div class="role-description" id="roleDescription"></div>
+
+            <div id="infoDisplay" style="display: none;">
+                <h2>Informations du Joueur</h2>
+                <p id="roleDisplay"></p>
+                <p id="loverDisplay"></p>
+                <p id="deadDisplay"></p>
+                <p id="captainDisplay"></p> <!-- Nouveau affichage pour Capitaine -->
+            </div>
+            
+            <div class="card" id="roleImage">
+                <img src="images/card-back-c.png" alt="Dos de la carte" class="hidden" id="cardBack">
+                <img src="" alt="Rôle" id="cardFront" class="hidden">
+                <img src="images/capitaine.png" alt="capitaine" id="capitaine" class="hidden">
+            </div>
+
+            <div class="button-container">
+                <button id="toggleLover">Indiquer que je suis Amoureux</button>
+                <button id="toggleDeath">Mourir / Ressusciter</button>
+                <button id="toggleCaptain">Indiquer que je suis Capitaine</button>
+            </div>
+        </div>
+
+        <button id="toggleInfo">Afficher / Masquer les Informations</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
