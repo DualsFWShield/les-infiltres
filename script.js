@@ -23,6 +23,10 @@ document.addEventListener('DOMContentLoaded', () => {
             description: "Un villageois n'a pas de pouvoir spécial.",
             img: "images/villageois-c.png"
         },
+        "infiltré": {
+            description: "Un infiltré peut éliminer un joueur chaque nuit.",
+            img: "images/infiltré-c.png"
+        },
         "observateur": {
             description: "Un observateur peut voir le rôle d'un joueur chaque nuit.",
             img: "images/observateur-c.png"
